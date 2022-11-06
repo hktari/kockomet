@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "lazy-dog";
+    src: url("fonts/lazy_dog.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --color-primary: #0d2c42;
+    --color-alt: #75c7fb;
+    --color-secondary: #ff9100;
+}
+
+body {
+    font-family: 'Open-Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'lazy-dog';
+}
+
+p,
+span,
+a,
+button {
+    font-family: 'Open-Sans', sans-serif;
+}
