@@ -6,13 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
-    --color-primary: #0d2c42;
+    --color-primary: #01273a;
     --color-alt: #75c7fb;
     --color-secondary: #ff9100;
 }
 
 body {
     font-family: 'Open-Sans', sans-serif;
+    background-color: var(--color-primary);
 }
 
 h1,
@@ -20,13 +21,33 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6,
+a {
     font-family: 'lazy-dog';
+    color: #ff9100;
 }
 
 p,
 span,
-a,
-button {
+button,
+i {
     font-family: 'Open-Sans', sans-serif;
+    color: #fff;
+}
+
+
+.c-heading{
+    font-size: 4em;
+}
+.c-subheading{
+    font-size: 2em;
+}
+
+.c-link{
+    font-size: 1.5em;
+}
+
+
+.c-details-item i{
+    font-size: 1.5em;
 }
